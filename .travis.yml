@@ -1,0 +1,13 @@
+language: haskell
+
+cabal:
+  - "3.0.0.0"
+
+ghc:
+  - "8.6.5"
+
+script:
+  ghc -o main main.hs
+
+notifications:
+  email: drp@isep.ipp.pt
