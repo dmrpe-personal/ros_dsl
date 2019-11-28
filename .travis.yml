@@ -5,6 +5,7 @@ cabal:
 
 ghc:
   - "8.6.5"
+  - "7.10.3"
 
 script:
   ghc -o main main.hs
